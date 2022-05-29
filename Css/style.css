@@ -14,15 +14,18 @@
     --button-color: #0d6efd;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* header-start */
 
 header {
     width: 100%;
     padding: 15px;
     background-color: var(--main-color);
-    display: flex;
-    justify-items: center;
-    align-items: center;
     z-index: 8;
     position: fixed;
 }
@@ -33,9 +36,6 @@ header {
 }
 
 header div:first-of-type {
-    display: flex;
-    justify-items: center;
-    align-items: center;
     margin: 0 auto;
 }
 
@@ -175,12 +175,12 @@ ul li:hover a {
 
 @media (max-width:1200px) {
     header ul {
-        margin-left: 60px;
-        margin-right: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     header li a {
-        padding-left: 21px !important;
+        padding: 11px !important;
     }
 }
 
@@ -256,9 +256,6 @@ ul li:hover a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 370%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .frist .down:hover {
@@ -274,9 +271,6 @@ ul li:hover a {
 
 .container {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
@@ -286,9 +280,6 @@ ul li:hover a {
     padding: 10px;
     width: 372px;
     height: 278px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
     border-radius: 3px;
 }
