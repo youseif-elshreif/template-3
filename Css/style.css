@@ -23,7 +23,6 @@ header {
     display: flex;
     justify-items: center;
     align-items: center;
-    position: sticky;
     z-index: 8;
     position: fixed;
 }
@@ -72,7 +71,7 @@ header ul {
 }
 
 header li a {
-    padding-left: 40px;
+    padding: 0 20px;
     font-size: 1.1em;
     color: white;
     text-transform: capitalize;
@@ -94,7 +93,7 @@ header .button {
     border-radius: 50px;
 }
 
-ul a:hover {
+ul li:hover a {
     color: var(--logo-color);
 }
 
