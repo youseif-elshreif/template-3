@@ -499,12 +499,8 @@ u {
         width: 100%;
     }
 
-    .th a {
-        font-size: .7em;
-    }
-
     .th a:last-of-type {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .thcontainer {
@@ -515,6 +511,45 @@ u {
 @media (max-width:992px) {
     .th div {
         width: 100%;
+    }
+
+    .th a {
+        font-size: .7em;
+    }
+
+    .th a:last-of-type {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:576px) {
+    .three img:nth-of-type(4) {
+        left: -20px;
+    }
+
+    .three img:nth-of-type(3) {
+        left: 0px;
+    }
+
+    .three img:nth-of-type(2) {
+        left: 20px;
+    }
+
+    .three img:first-of-type {
+        left: 40px;
+    }
+
+    .th div {
+        margin-left: -30px;
+    }
+
+    .thrf {
+        position: absolute;
+    }
+
+    .th hr {
+        width: 250px;
     }
 }
 
