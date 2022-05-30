@@ -363,3 +363,159 @@ ul li:hover a {
 }
 
 /* sec-section-end */
+/* three-section-start */
+.three {
+    width: 100%;
+}
+
+.thcontainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.dth,
+.th {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dth {
+    width: 1000px;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+}
+
+.th div {
+    width: 490px;
+    padding: 15px;
+}
+
+u {
+    color: var(--logo-color);
+}
+
+.th h3 {
+    font-size: 2em;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.th1 p {
+    font-size: 1.3em;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.th a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.th a:first-of-type {
+    color: var(--logo-color);
+    border: var(--logo-color) solid 2px;
+    background-color: white;
+}
+
+.th a:first-of-type:hover {
+    color: white;
+    background-color: var(--logo-color);
+    box-shadow: 0 15px 26px rgba(0, 0, 0, 20%);
+}
+
+.th a:last-of-type {
+    background-color: var(--main-color);
+    color: white;
+    margin-left: 40px;
+}
+
+.th a:last-of-type:hover {
+    background-color: var(--logo-color);
+    box-shadow: 0 15px 26px rgba(0, 0, 0, 20%);
+}
+
+.th h4 {
+    font-size: 1.8em;
+    margin-bottom: 60px;
+}
+
+.th hr {
+    width: 400px;
+    background-color: #fff;
+    margin: 64px auto 37px 10px;
+}
+
+.th2 p {
+    font-size: 1.3em;
+}
+
+.three img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: white 2px solid;
+    position: relative;
+}
+
+.three img:nth-of-type(2) {
+    left: -20px;
+}
+
+.three img:nth-of-type(3) {
+    left: -40px;
+}
+
+.three img:nth-of-type(4) {
+    left: -60px;
+}
+
+.thrf {
+    padding-left: 0 !important;
+}
+
+@media (max-width:1200px) {
+    .th hr {
+        width: 300px;
+        margin: 85px auto 79px 10px
+    }
+
+    .th div {
+        width: 416px;
+        margin-left: -20px;
+    }
+
+    .dth,
+    .th {
+        width: 100%;
+    }
+
+    .th a {
+        font-size: .7em;
+    }
+
+    .th a:last-of-type {
+        margin-left: 20px;
+    }
+
+    .thcontainer {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width:992px) {
+    .th div {
+        width: 100%;
+    }
+}
+
+/* three-section-end */
