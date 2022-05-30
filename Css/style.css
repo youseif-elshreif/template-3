@@ -105,13 +105,40 @@ ul li:hover a {
     }
 
     header li a {
-        padding: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    header li:nth-of-type(1) a {
+        top: 0px;
+    }
+
+    header li:nth-of-type(2) a {
+        top: 40px;
+    }
+
+    header li:nth-of-type(3) a {
+        top: 80px;
+    }
+
+    header li:nth-of-type(4) a {
+        top: 120px;
+    }
+
+    header li:nth-of-type(5) a {
+        top: 160px;
+    }
+
+    header li:nth-of-type(6) a {
+        top: 200px;
+    }
+
+    header li:nth-of-type(7) a {
+        top: 240px;
     }
 
     header li {
         width: 100%;
-        margin-left: 40px;
-        margin-bottom: 20px;
         padding: 0;
     }
 
@@ -175,8 +202,8 @@ ul li:hover a {
 
 @media (max-width:1200px) {
     header ul {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 60px;
+        margin-right: 0px;
     }
 
     header li a {
@@ -509,6 +536,10 @@ u {
 }
 
 @media (max-width:992px) {
+    .dth h2 {
+        padding-top: 50px;
+    }
+
     .th div {
         width: 100%;
     }
@@ -546,6 +577,8 @@ u {
 
     .thrf {
         position: absolute;
+        width: 80% !important;
+        margin: 0 auto !important;
     }
 
     .th hr {
