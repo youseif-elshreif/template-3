@@ -852,7 +852,6 @@ u {
 /* five-section-start */
 .five {
     padding-top: 90px;
-    height: 300px;
 }
 
 .five .nav {
@@ -887,6 +886,7 @@ u {
     border: 0;
     background-color: white;
     border-left: #f0f8ff 3px solid;
+    margin-bottom: 30px;
 }
 
 .five button span {
